@@ -23,7 +23,6 @@ handler.setFormatter(logging.Formatter('%(asctime)s:%(levelname)s:%(name)s: %(me
 logger.addHandler(handler)
 intents = discord.Intents.default()
 intents.members = True
-TOKEN = "OTY2MDkwOTE3NDg2NDI0MDY0.Yl8sRw.c29Y5IC3W3f4bYMy0CHTF23Nf4I"
 
 Base = declarative_base()
 
